@@ -26,8 +26,8 @@ $(document).ready(function(){
 	var element2 = $('#header').height();
 	var package  = $('.package').offset().top;
 	var gallery  = $('.gallery').offset().top;
-	var chois    = $('.chois-us').offset().top;
-	var blog     = $('.blog').offset().top/1.1;
+	var chois    = $('.chois-us').offset().top/1.1;
+	var blog     = $('.blog').offset().top;
 	$(window).scroll(function(){
 		var posisionTop = $(window).scrollTop();
 
